@@ -1,0 +1,6 @@
+*.db
+Desktop.ini
+.idea/
+*.iml
+build/
+target/
