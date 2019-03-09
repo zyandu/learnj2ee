@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>me.zy.pattern.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="-452.0" y="-32.0">me.zy.pattern.factory.abstractfactory.DasCar</node>
+    <node x="-452.0" y="393.0">me.zy.pattern.factory.abstractfactory.BmwBody</node>
+    <node x="-265.0" y="393.0">me.zy.pattern.factory.abstractfactory.DasBody</node>
+    <node x="-452.0" y="192.0">me.zy.pattern.factory.abstractfactory.BmwEngine</node>
+    <node x="-354.0" y="89.0">me.zy.pattern.factory.abstractfactory.IEngine</node>
+    <node x="-358.5" y="290.0">me.zy.pattern.factory.abstractfactory.ICarBody</node>
+    <node x="-212.0" y="-32.0">me.zy.pattern.factory.abstractfactory.BwmCar</node>
+    <node x="-53.0" y="290.0">me.zy.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="-256.0" y="192.0">me.zy.pattern.factory.abstractfactory.DasEngine</node>
+    <node x="-332.0" y="-158.0">me.zy.pattern.factory.abstractfactory.ICarAbstractFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.zy.pattern.factory.abstractfactory.BmwEngine" target="me.zy.pattern.factory.abstractfactory.IEngine">
+      <point x="0.0" y="-26.5" />
+      <point x="-364.0" y="167.0" />
+      <point x="-310.0" y="167.0" />
+      <point x="-44.0" y="26.5" />
+    </edge>
+    <edge source="me.zy.pattern.factory.abstractfactory.DasCar" target="me.zy.pattern.factory.abstractfactory.ICarAbstractFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="-342.0" y="-57.0" />
+      <point x="-277.0" y="-57.0" />
+      <point x="-55.0" y="38.0" />
+    </edge>
+    <edge source="me.zy.pattern.factory.abstractfactory.DasEngine" target="me.zy.pattern.factory.abstractfactory.IEngine">
+      <point x="0.0" y="-26.5" />
+      <point x="-168.0" y="167.0" />
+      <point x="-222.0" y="167.0" />
+      <point x="44.0" y="26.5" />
+    </edge>
+    <edge source="me.zy.pattern.factory.abstractfactory.DasBody" target="me.zy.pattern.factory.abstractfactory.ICarBody">
+      <point x="0.0" y="-26.5" />
+      <point x="-181.5" y="368.0" />
+      <point x="-233.25" y="368.0" />
+      <point x="41.75" y="26.5" />
+    </edge>
+    <edge source="me.zy.pattern.factory.abstractfactory.BwmCar" target="me.zy.pattern.factory.abstractfactory.ICarAbstractFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="-102.0" y="-57.0" />
+      <point x="-167.0" y="-57.0" />
+      <point x="55.0" y="38.0" />
+    </edge>
+    <edge source="me.zy.pattern.factory.abstractfactory.BmwBody" target="me.zy.pattern.factory.abstractfactory.ICarBody">
+      <point x="0.0" y="-26.5" />
+      <point x="-368.5" y="368.0" />
+      <point x="-316.75" y="368.0" />
+      <point x="-41.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.5" y="210.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
