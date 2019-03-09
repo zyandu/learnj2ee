@@ -5,7 +5,7 @@ public class CloudService {
     //不再拘泥于AWS一种云，这里使用同一的接口类
     CloudSdk cloudSdk;
     public CloudService(String cloudStrategy) {
-        this.cloudSdk = cloudSdk;
+        this.cloudSdk = CloudFactory.getSdk(cloudStrategy);
     }
 
     //处理具体的上传逻辑
