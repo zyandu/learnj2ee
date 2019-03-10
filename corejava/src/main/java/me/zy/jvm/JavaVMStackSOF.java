@@ -1,4 +1,4 @@
-package me.zy.thread;
+package me.zy.jvm;
 
 /**
  * VM Args：-Xss128k

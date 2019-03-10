@@ -1,4 +1,4 @@
-package me.zy;
+package me.zy.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
