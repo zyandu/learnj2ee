@@ -13,7 +13,7 @@ public class Test {
 
         System.out.println("");
 
-        //Pattern pattern = Pattern.compile("zsmx[^fk]*?\\.dbf",Pattern.CASE_INSENSITIVE);
+        //Pattern me.zy.pattern = Pattern.compile("zsmx[^fk]*?\\.dbf",Pattern.CASE_INSENSITIVE);
         Pattern pattern = Pattern.compile("zsmx(f[^k]|[^f]).*?\\.dbf",Pattern.CASE_INSENSITIVE);
         pattern = patternProduct;
         Matcher matcher = pattern.matcher("zsmx.DBF");
