@@ -1,4 +1,4 @@
-package me.zy.adapter;
+package me.zy.pattern.adapter;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -18,7 +18,7 @@ public class PaymentClient {
 
         //cglib动态代理一个类，静态代理只能代理接口类
         //设置参数，将生成的字节码文件保存在对应路径
-        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY,"test");
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY,"corejava/src/test/pattern/proxy");
         AliPayImpl aliPay = new AliPayImpl();
         CglibDynamicProxy proxy = new CglibDynamicProxy();
         AliPayImpl p2 = (AliPayImpl)proxy.getInstance(aliPay);

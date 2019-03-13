@@ -1,4 +1,4 @@
-package me.zy.adapter;
+package me.zy.pattern.adapter;
 
 public class CloudController {
     CloudService cloudService ;

@@ -1,4 +1,4 @@
-package me.zy.adapter;
+package me.zy.pattern.adapter;
 
 public class AwsSdkAdapter implements CloudSdk {
     //注入AwsSdk
