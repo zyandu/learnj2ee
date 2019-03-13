@@ -1,6 +1,6 @@
 package me.zy.pattern.prototype;
 
-public class Car {
+public class Car implements Cloneable{
     private String name;
     private String color;
 
