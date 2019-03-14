@@ -38,7 +38,7 @@
     <!-- 集中定义公用的依赖版本号 -->
     <!--版本变量设置 start-->
     <properties>
-        <spring-version>4.3.0.RELEASE</spring-version>
+        <spring-version>4.3.22.RELEASE</spring-version>
     </properties>
 
     <!-- lib包管理器 -->
