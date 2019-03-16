@@ -1,7 +1,6 @@
 package me.zy.pattern.singleton;
 
-import me.zy.pattern.singleton.lazy.LazyInnerClassSingleton;
-import me.zy.pattern.singleton.lazy.LazySimpleSingleton;
+import me.zy.pattern.singleton.innerclass.LazyInnerClassSingleton;
 
 public class ExecutorThread implements Runnable {
     @Override
