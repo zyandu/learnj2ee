@@ -12,7 +12,8 @@ public class LazySimpleSingleton {
     //这里可能会锁整个类对象
     public synchronized static LazySimpleSingleton getInstance(){
 
-        //这里可能有线程安全问题，两个线程同时进入，就会new两次
+        //这里可能有线程安全问题，所以在方法上加了synchronized修饰符
+        //两个线程同时进入，就会new两次
         if(null == lazySineleton){
             lazySineleton = new LazySimpleSingleton();
         }
