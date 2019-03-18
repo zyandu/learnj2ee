@@ -39,6 +39,8 @@
     <!--版本变量设置 start-->
     <properties>
         <spring-version>4.3.22.RELEASE</spring-version>
+        <cglib-version>3.1</cglib-version>
+        <servlet-verison>4.0.1</servlet-verison>
     </properties>
 
     <!-- lib包管理器 -->
@@ -49,6 +51,9 @@
                 <artifactId>spring-beans</artifactId>
                 <version>${spring-version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+
+
         </dependencies>
     </dependencyManagement>
 </project>
