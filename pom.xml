@@ -41,6 +41,7 @@
         <spring-version>4.3.22.RELEASE</spring-version>
         <cglib-version>3.1</cglib-version>
         <servlet-verison>4.0.1</servlet-verison>
+        <guava-version>27.1-jre</guava-version>
     </properties>
 
     <!-- lib包管理器 -->
@@ -52,7 +53,12 @@
                 <version>${spring-version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-
+            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava-version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

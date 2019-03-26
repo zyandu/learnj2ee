@@ -42,8 +42,9 @@ public class Event {
         return trigger;
     }
 
-    public void setTrigger(String trigger) {
+    public Event setTrigger(String trigger) {
         this.trigger = trigger;
+        return this;
     }
 
     public long getTime() {
