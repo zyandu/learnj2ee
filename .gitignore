@@ -4,3 +4,4 @@ Desktop.ini
 *.iml
 build/
 target/
+classes/
