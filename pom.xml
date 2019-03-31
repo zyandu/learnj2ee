@@ -42,6 +42,7 @@
         <cglib-version>3.1</cglib-version>
         <servlet-verison>4.0.1</servlet-verison>
         <guava-version>27.1-jre</guava-version>
+        <jetty-maven-plugin-version>9.4.15.v20190215</jetty-maven-plugin-version>
     </properties>
 
     <!-- lib包管理器 -->
@@ -59,7 +60,6 @@
                 <artifactId>guava</artifactId>
                 <version>${guava-version}</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 </project>
