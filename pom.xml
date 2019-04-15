@@ -7,6 +7,9 @@
     <groupId>me.zy</groupId>
     <artifactId>learnj2ee</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>zyspringframe</module>
+    </modules>
 
     <!--父级项目一般都是用pom来子项目依赖,一般软件的版本号/插件/都在这里进行定义,统一做管理-->
     <!--install的时候parent也是要最新instal的,不然其他依赖就依赖不到这里了-->

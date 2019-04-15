@@ -59,6 +59,7 @@ public class ZyDispatcherServlet extends HttpServlet {
             Object obj = iocContainer.get(StringUtils.toFirstCharLowerCase(beanName));
 
             //这里供演示，所以写死
+            //后面版本改成灵活获取
             Map<String,String[]> paramMap = req.getParameterMap();
             method.invoke(obj,new Object[]{req,resp,paramMap.get("name")[0]});
 
