@@ -6,7 +6,6 @@ public class TestPerfermance {
     public static double executeTm(Queue<Integer> q, int execCounts){
         long startTime = System.currentTimeMillis();
 
-
         Random random = new Random(Integer.MAX_VALUE);
         for (int i = 0; i < execCounts; i++) {
             q.enqueue(random.nextInt());
@@ -19,7 +18,7 @@ public class TestPerfermance {
     }
 
     public static void main(String[] args) {
-        int opCount = 100000;
+        int opCount = 1000000;
 
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
         double time1 = executeTm(arrayQueue, opCount);
@@ -28,6 +27,10 @@ public class TestPerfermance {
         LoopQueue<Integer> loopQueue = new LoopQueue<>();
         double time2 = executeTm(loopQueue, opCount);
         System.out.println("LoopQueue, time: " + time2 + " s");
+
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double time3 = executeTm(linkedListQueue, opCount);
+        System.out.println("LinkedListQueue, time: " + time3 + " s");
 
     }
 }

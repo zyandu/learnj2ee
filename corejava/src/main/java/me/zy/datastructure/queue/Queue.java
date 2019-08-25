@@ -17,7 +17,7 @@ public interface Queue<E> {
     void enqueue(E e);
 
     /**
-     * 对首
+     * 队首
      */
     E getFront();
 

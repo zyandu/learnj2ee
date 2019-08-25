@@ -42,9 +42,9 @@ public class Array<E> {
 
     //在index索引位置添加一个元素
     public void add(int index,E e){
-        if(index == data.length){
-            throw new IllegalArgumentException("Add failed.Array is full.");
-        }
+        //if(index == data.length){
+        //    throw new IllegalArgumentException("Add failed.Array is full.");
+        //}
 
         if(index < 0 || index > size){
             throw  new IllegalArgumentException("Add failed. Require index >= 0 and index <= size. ");
