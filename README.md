@@ -30,6 +30,7 @@ learnj2ee包含了java只是以及Spring、MyBatis框架的使用教程以及示
 * executor
 * parameterHandler
 * statementHandler
+* ResultSetHandler
 * 插件原理
 
 ## springframe
